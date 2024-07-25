@@ -1,0 +1,358 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* common css end */
+
+/* header section css start  */
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* logo css start */
+.logo{
+    width: 20%;
+}
+/* logo css end */
+
+/* menu css start  */
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a {
+    padding: 10px 45px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* menu css end  */
+
+/* icon css start */
+.icon {
+    width: 20%;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    column-gap: 20px;
+}
+.icon a {
+    color: #000;
+    font-size: 19px;
+    font-weight: 400;
+}
+/* icon css end */
+
+/* header section css end  */
+
+/* banna section css start */
+#bannar{
+    background: url(../images/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 840px;
+}
+.bannar_content_area {
+    display: flex;
+    align-items: center;
+    height: 840px;
+}
+
+.bannar_header_txt h1 {
+    width: 546px;
+    font-size: 64px;
+    line-height: 77px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bannar_normal_txt p {
+    width: 512px;
+    color: #fff;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bannar_btn a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    background: #fff;
+    padding: 10px 30px 17px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* banna section css end */
+
+/* brand logo section css start */
+#brand_logo {
+    background: #fff;
+}
+.logo_grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 198px;
+}
+.single_logo{
+    width: 15%;
+}
+/* brand logo section css end */
+
+/* flacon section css start  */
+#flacon {
+    padding: 10px 0 40px 0;
+}
+
+.flacon_header h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+/* product css start */
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.single_product_grid {
+    width: 23%;
+    text-align: center;
+    box-shadow: 0px 2px 3px -2px #000;
+    height: 381px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single_product_grid .product_name h5 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.single_product_grid .product_price strong {
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+}
+/* product css end */
+/* flacon section css end  */
+
+/* francis kurkdjin section css start */
+#francis_kurkdji{
+    background: url(../images/francis_kurkdji.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 506px;
+}
+.francis_kurkdji_area {
+    height: 506px;
+    display: flex;
+    align-items: center;
+}
+
+.francis_kurkdji_header_txt h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.francis_kurkdji_normal_txt p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 536px;
+    padding: 20px 0 10px 0;
+}
+
+.francis_kurkdji_btn a {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px 15px 25px;
+    border-radius: 5px;
+}
+/* francis kurkdjin section css end */
+
+/* best parfium secion css start  */
+#best_parfium_area {
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+.bst_parfium {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_grid {
+    width: 48%;
+    height: 520px;
+    position: relative;
+}
+
+.card_grid .parfiume_text {
+    position: absolute;
+    bottom: -63px;
+    left: 8%;
+    background: #fff;
+    height: 200px;
+    width: 85%;
+    box-shadow: 0px 0px 7px -2px #000;
+    padding: 25px 20px;
+}
+.card_grid .parfiume_text h5 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    font-weight: 700;
+}
+.card_grid .parfiume_text p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 364px;
+    margin: 10px 0 8px 0;
+}
+.card_grid .parfiume_text a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px 15px 20px;
+    border-radius: 5px;
+}
+/* best parfium secion css end  */
+
+/* FAQ section start */
+#faq_area {
+    height: 428px;
+    background: #fff;
+}
+
+.faq_header h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #000;
+    padding-top: 25px;
+}
+.faq_content {
+    padding-top: 80px;
+}
+
+.faq_content ul li {
+    display: flex;
+    justify-content: space-between;
+    height: 57px;
+    border-bottom: 1px solid #ddd;
+    line-height: 57px;
+    color: #333333;
+}
+.faq_content ul li:nth-child(1){
+    border-top: 1px solid #ddd;
+}
+/* FAQ section end */
+
+/* footer section css start  */
+footer{
+    background: #000;
+    padding: 64px 0 30px 0;
+}
+
+/* footer_top css start  */
+.footer_top {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 30px;
+}
+.footer_img{
+    width: 19%;
+}
+
+.footer_grid{
+    width: 19%;
+}
+.footer_grid h5 {
+    color: #fff;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_grid li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer_grid p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+/* footer_top css end  */
+
+/* footr_bottom css start  */
+.footr_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0px 0;
+    height: 80px;
+}
+.footr_bottom p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 80px;
+    width: 65%;
+}
+.footr_bottom img{
+    width: 35%;
+}
+/* footr_bottom css end  */
+
+/* footer section css end  */
